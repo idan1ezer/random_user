@@ -271,7 +271,7 @@ class _UserDetailedWidgetState extends State<UserDetailedWidget> {
     ScaffoldMessenger.of(context).showSnackBar(
       const SnackBar(
         backgroundColor: Colors.black,
-        content: Text('Getting Users...'),
+        content: Text('Saving user\'s name...'),
       ),
     );
   }
